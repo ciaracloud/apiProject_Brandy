@@ -20,7 +20,7 @@ https://youtu.be/mTRFO0Wi55k
 
 ### API:
 
-- [Unsplash Images](https://openweathermap.org/api)
+- [Tailwind Simeon Griggs Palette](https://tailwind.simeongriggs.dev/brand/2522FC)
 - [Unsplash Images](https://openweathermap.org/api)
 
 ## Notes:
