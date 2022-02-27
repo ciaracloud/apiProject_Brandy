@@ -1,6 +1,32 @@
 # Brandy
-## Generate a brand kit
 
-Keep in mind that you will have to add your own api key for Unsplash Images API in order to test out the website!
+![Brandy Screenshot](images/brandyScreenshot.png)
 
-[Click here to read about my project!](https://dev.to/ciaracloud/cats-and-apis-3h8o)
+## Video Walk Through:
+
+https://youtu.be/mTRFO0Wi55k
+
+## Overview:
+
+<!-- Sunny Side Up is a weather app that loads daily weather and weekly forecast for a city that the user looks up. Different egg images are loaded in the weather app depending on what the weather is for the day. The app merges functionality with entertainment for an enjoyable user experience. -->
+
+## What I Used:
+
+### Languages:
+
+- HTML
+- CSS
+- Javascript
+
+### API:
+
+- [Unsplash Images](https://openweathermap.org/api)
+- [Unsplash Images](https://openweathermap.org/api)
+
+## Notes:
+
+- In order to test the app, you will have to insert your own Unsplash Images api key in the unsplashApiKey variable string on line 66.
+
+![API Key Screenshot](images/unspashApiKey.png)
+
+- Check out my [Dev To blog post](https://dev.to/ciaracloud/cats-and-apis-3h8o) about this project!
