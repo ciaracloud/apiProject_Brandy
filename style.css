@@ -1,0 +1,705 @@
+:root {
+  --dark-color: #5806be;
+}
+
+body {
+  background-color: #cbc3e3;
+  color: black;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Comfortaa", cursive;
+}
+
+.menuElement {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.printFontCombo1Element,
+.printFontCombo2Element,
+.printFontCombo3Element {
+  display: flex;
+  align-items: center;
+}
+
+.fontElement {
+  margin: 10px;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 330px;
+  margin-right: 10px;
+}
+
+.brandyTitle {
+  color: white;
+  padding-left: 37px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.brandyIntro {
+  font-family: "Amatic SC", cursive;
+  width: 700px;
+  font-size: 80px;
+  margin-right: 30px;
+  padding-top: 20px;
+}
+
+.brandyImage {
+  padding-top: 50px;
+}
+
+.brandyContainer {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  margin-top: 10px;
+}
+
+.homeButtonsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.homeButton {
+  text-decoration: none;
+  background-color: var(--dark-color);
+  margin: 15px;
+  padding: 20px;
+  color: white;
+  border-radius: 30px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.noteContainer {
+  background-color: white;
+  color: black;
+  width: 60%;
+  display: grid;
+  place-items: center;
+  margin-top: 30px;
+  border-radius: 65px;
+}
+
+.questionContainer {
+  width: 57%;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.moodBoardContainer {
+  background-color: white;
+  width: 60%;
+  margin: 20px;
+  border-radius: 70px;
+  margin-bottom: 50px;
+}
+
+.colorChosenDisplay {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  margin: 0px;
+  margin-top: 15px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.fontComboButton {
+  background-color: var(--dark-color);
+  color: white;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.font1Combo1,
+.printFont1Combo1,
+.moodBoardBrandName1,
+.moodBoardHeaderText1,
+.moodBoardHeaderExample1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.font1Combo2,
+.printFont1Combo2,
+.moodBoardBrandName2,
+.moodBoardHeaderText2,
+.moodBoardHeaderExample2 {
+  font-family: "EB Garamond", serif;
+}
+
+.font1Combo3,
+.printFont1Combo3,
+.moodBoardBrandName3,
+.moodBoardHeaderText3,
+.moodBoardHeaderExample3 {
+  font-family: "Great Vibes", cursive;
+}
+
+.font2Combo1,
+.printFont2Combo1,
+.moodBoardBodyText1,
+.moodBoardBodyExample1 {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.font2Combo2,
+.printFont2Combo2,
+.moodBoardBodyText2,
+.moodBoardBodyExample2 {
+  font-family: "Poiret One", cursive;
+}
+
+.font2Combo3,
+.printFont2Combo3,
+.moodBoardBodyText3,
+.moodBoardBodyExample3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.moodBoardBrandName {
+  text-align: center;
+  font-size: 65px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.colorElement {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+}
+
+.imageElement {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin: 8px;
+  margin-bottom: 30px;
+  border-radius: 100px;
+}
+
+.buttonsTitle {
+  margin-left: 50px;
+}
+
+.bodyTitle {
+  margin-right: 50px;
+}
+
+.moodBoardColorPalette {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.moodBoardImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+}
+
+.moodBoardFontElement {
+  margin: 0px;
+  height: 190px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.moodBoardHeaderElement,
+.moodBoardBodyElement {
+  margin: 0px;
+  height: 20px;
+  width: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.moodBoardHeaderText {
+  font-size: 28px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.moodBoardBodyText {
+  font-size: 28px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.socialsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.socialsContainer,
+.buttonsContainer {
+  width: 30%;
+  margin-top: px;
+  margin-bottom: 15px;
+}
+
+.moodBoardBodyExample {
+  text-align: center;
+}
+
+.moodBoardHeaderExample {
+  text-align: center;
+}
+
+.moodBoardSocial {
+  height: 73px;
+  width: 73px;
+  padding: 0px;
+  margin: 5px;
+  border-radius: 70px;
+}
+
+.elementsContainer {
+  display: flex;
+}
+
+.moodBoardButton {
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin: 5px;
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
+}
+
+.fontTitlesContainer {
+  display: flex;
+}
+
+.headerTitle {
+  margin-left: 185px;
+  margin-bottom: 30px;
+}
+
+.bodyTitle {
+  margin-left: 260px;
+}
+
+.elementsTitlesContainer {
+  display: flex;
+}
+
+.buttonsTitle {
+  margin-left: 180px;
+  margin-bottom: 20px;
+}
+
+.moodBoardButton1Font1,
+.moodBoardButton2Font1,
+.moodBoardButton3Font1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+}
+
+.moodBoardButton1Font2,
+.moodBoardButton2Font2,
+.moodBoardButton3Font2 {
+  font-family: "Poiret One", cursive;
+  text-align: center;
+}
+
+.moodBoardButton1Font3,
+.moodBoardButton2Font3,
+.moodBoardButton3Font3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.imagesTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.elementsContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 11px;
+}
+
+.brandNameTitle {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.colorPaletteTitle {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.phrase {
+  text-align: center;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.colorElement {
+  display: grid;
+  place-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.productElement {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.colorChosenElement {
+  display: grid;
+  place-items: center;
+}
+
+.colorInputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hashtag {
+  font-size: 22px;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  margin-right: 0px;
+}
+
+.inputField {
+  height: 25px;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  width: 250px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+  outline: none;
+}
+
+.hashtagAndColorInput {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.button {
+  margin-left: 10px;
+  background-color: var(--dark-color);
+  color: white;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.fontComboContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dark-color);
+}
+
+.generateMoodBoardButton {
+  background-color: var(--dark-color);
+  color: white;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.proContainer,
+.infoContainer {
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.proHeader {
+  background-color: var(--dark-color);
+  color: white;
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.infoHeader {
+  background-color: var(--dark-color);
+  color: white;
+  width: 500px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.catHead {
+  width: 420px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 200px;
+}
+
+.letsGetStarted {
+  text-align: center;
+}
+
+.cat {
+  display: flex;
+  margin-top: 11px;
+}
+.brandyWords {
+  font-size: 70px;
+  font-family: "Amatic SC", cursive;
+  margin-left: 30px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .navBar {
+    width: 100%;
+  }
+  .brandyTitle {
+    font-size: 18px;
+  }
+  .menuElement {
+    font-size: 12px;
+  }
+  .navMenu {
+    width: 230px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+  .colorInputContainer {
+    display: grid;
+    place-items: center;
+  }
+  .catHead {
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .cat {
+    display: grid;
+    place-items: center;
+  }
+  .brandyWords {
+    display: none;
+  }
+  .colorChosenDisplay {
+    height: 50px;
+    width: 50px;
+  }
+  .noteContainer {
+    font-size: 12px;
+    border-radius: 30px;
+    width: 90%;
+  }
+  .fontComboElement,
+  .fontComboButton {
+    font-size: 12px;
+  }
+  .fontComboButton {
+    margin: 5px;
+  }
+  .generateMoodBoardButton {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+  }
+  .moodBoardContainer {
+    width: 90%;
+  }
+  .moodBoardColorPalette {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  .moodBoardImages {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+  }
+  .imageElement {
+    height: 100px;
+    width: 100px;
+  }
+
+  .title {
+    display: none;
+  }
+  .colorElement {
+    width: 50px;
+    height: 50px;
+  }
+  .moodBoardHeaderElement,
+  .moodBoardBodyElement {
+    margin: 10px;
+    margin-bottom: 80px;
+    width: 300px;
+  }
+  .moodBoardHeaderText,
+  .moodBoardBodyText {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .moodBoardHeaderExample,
+  .moodBoardBodyExample {
+    font-size: 12px;
+    margin: 0px;
+  }
+  .moodBoardButton {
+    font-size: 12px;
+    width: 80px;
+    height: 20px;
+  }
+  .moodBoardSocial {
+    width: 40px;
+    height: 40px;
+  }
+  .elementsContainer {
+    margin-top: 50px;
+    margin-right: 40px;
+  }
+  .moodBoardBrandName {
+    font-size: 40px;
+    margin-top: 15px;
+  }
+
+  .moodBoardFontElement {
+    flex-wrap: wrap;
+  }
+  .proContainer,
+  .infoContainer {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .proHeader {
+    background-color: var(--dark-color);
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .infoHeader {
+    background-color: var(--dark-color);
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: 13px;
+  }
+
+  .proHeader {
+    width: 130px;
+    font-size: 14px;
+  }
+  .infoParagraph,
+  .proParagraph {
+    font-size: 13px;
+  }
+  .infoContainer {
+    margin: 45px;
+  }
+  .brandyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    width: 375px;
+  }
+  .brandyIntro,
+  .brandyImage {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .homeButton {
+    text-align: center;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .homeButtonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .brandyImage {
+    width: 220px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .brandyIntro {
+    width: 300px;
+    font-size: 37px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+}
