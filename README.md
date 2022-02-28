@@ -8,7 +8,7 @@ https://youtu.be/mTRFO0Wi55k
 
 ## Overview:
 
-<!-- Sunny Side Up is a weather app that loads daily weather and weekly forecast for a city that the user looks up. Different egg images are loaded in the weather app depending on what the weather is for the day. The app merges functionality with entertainment for an enjoyable user experience. -->
+Brand kits are important for a brand because they include all elements of their visual brand identity and help build consistency surrounding their brand. Brandy is a website that generates a brand kit based on the information that the user inputs about their brand. The website also includes a cat mascot named Brandy that cheers the user on as they build their brand kit.
 
 ## What I Used:
 
@@ -27,6 +27,6 @@ https://youtu.be/mTRFO0Wi55k
 
 - In order to test the app, you will have to insert your own Unsplash Images api key in the unsplashApiKey variable string on line 66.
 
-![API Key Screenshot](images/unspashApiKey.png)
+![API Key Screenshot](images/unsplashApiKey.png)
 
 - Check out my [Dev To blog post](https://dev.to/ciaracloud/cats-and-apis-3h8o) about this project!
