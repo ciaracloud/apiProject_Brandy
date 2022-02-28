@@ -18,7 +18,7 @@ Brand kits are important for a brand because they include all elements of their 
 - CSS
 - Javascript
 
-### API:
+### APIs:
 
 - [Tailwind Simeon Griggs Palette](https://tailwind.simeongriggs.dev/brand/2522FC)
 - [Unsplash Images](https://openweathermap.org/api)
