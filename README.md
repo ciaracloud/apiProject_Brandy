@@ -6,6 +6,10 @@
 
 https://youtu.be/mTRFO0Wi55k
 
+## Live site:
+
+https://brandykit.netlify.app/
+
 ## Overview:
 
 Brand kits are important for a brand because they include all elements of their visual brand identity and help build consistency surrounding their brand. Brandy is a website that generates a brand kit based on the information that the user inputs about their brand. The website also includes a cat mascot named Brandy that cheers the user on as they build their brand kit.
